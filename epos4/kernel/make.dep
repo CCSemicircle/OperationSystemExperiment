@@ -1,0 +1,56 @@
+ide.o: ide.c ../include/inttypes.h ../include/stdint.h kernel.h \
+ ../include/sys/types.h ../include/time.h machdep.h cpu.h
+floppy.o: floppy.c
+pci.o: pci.c ../include/stddef.h cpu.h ../include/inttypes.h \
+ ../include/stdint.h
+vm86.o: vm86.c kernel.h ../include/sys/types.h ../include/inttypes.h \
+ ../include/stdint.h ../include/time.h machdep.h cpu.h
+kbd.o: kbd.c ../include/stddef.h kernel.h ../include/sys/types.h \
+ ../include/inttypes.h ../include/stdint.h ../include/time.h machdep.h \
+ cpu.h
+timer.o: timer.c ../include/stddef.h ../include/time.h \
+ ../include/sys/types.h kernel.h ../include/inttypes.h \
+ ../include/stdint.h machdep.h cpu.h
+machdep.o: machdep.c ../include/stddef.h ../include/syscall-nr.h \
+ ../include/ioctl.h ../include/sys/mman.h ../include/sys/types.h \
+ ../include/string.h kernel.h ../include/inttypes.h ../include/stdint.h \
+ ../include/time.h machdep.h cpu.h multiboot.h
+task.o: task.c ../include/stddef.h ../include/string.h \
+ ../include/sys/types.h kernel.h ../include/inttypes.h \
+ ../include/stdint.h ../include/time.h machdep.h cpu.h
+mktime.o: mktime.c ../include/time.h ../include/sys/types.h
+sem.o: sem.c ../include/stddef.h kernel.h ../include/sys/types.h \
+ ../include/inttypes.h ../include/stdint.h ../include/time.h machdep.h \
+ cpu.h
+page.o: page.c ../include/stddef.h ../include/string.h \
+ ../include/sys/types.h kernel.h ../include/inttypes.h \
+ ../include/stdint.h ../include/time.h machdep.h cpu.h
+startup.o: startup.c ../include/stddef.h kernel.h ../include/sys/types.h \
+ ../include/inttypes.h ../include/stdint.h ../include/time.h machdep.h \
+ cpu.h dosfs.h
+frame.o: frame.c kernel.h ../include/sys/types.h ../include/inttypes.h \
+ ../include/stdint.h ../include/time.h machdep.h cpu.h bitmap.h
+kmalloc.o: kmalloc.c ../include/stddef.h cpu.h ../include/inttypes.h \
+ ../include/stdint.h ../lib/tlsf/tlsf.h ../include/sys/types.h
+dosfs.o: dosfs.c ../include/string.h ../include/stddef.h \
+ ../include/sys/types.h dosfs.h ../include/stdint.h
+pe.o: pe.c ../include/stddef.h ../include/string.h ../include/sys/types.h \
+ kernel.h ../include/inttypes.h ../include/stdint.h ../include/time.h \
+ machdep.h cpu.h dosfs.h
+elf.o: elf.c
+printk.o: printk.c ../include/stdarg.h ../include/sys/types.h kernel.h \
+ ../include/inttypes.h ../include/stdint.h ../include/time.h machdep.h \
+ cpu.h
+bitmap.o: bitmap.c ../include/stdint.h ../include/limits.h bitmap.h \
+ ../include/sys/types.h
+softfloat.o: ../lib/softfloat.c ../include/inttypes.h ../include/stdint.h \
+ ../include/stddef.h
+string.o: ../lib/string.c ../include/string.h ../include/stddef.h \
+ ../include/sys/types.h ../include/ctype.h
+memcpy.o: ../lib/memcpy.c ../include/stddef.h ../include/sys/types.h
+memset.o: ../lib/memset.c ../include/sys/types.h ../include/stdint.h \
+ ../include/limits.h ../include/string.h ../include/stddef.h
+snprintf.o: ../lib/snprintf.c ../include/sys/types.h ../include/ctype.h \
+ ../include/string.h ../include/stddef.h ../include/stdarg.h
+tlsf.o: ../lib/tlsf/tlsf.c ../include/limits.h ../include/stddef.h \
+ ../include/string.h ../include/sys/types.h ../lib/tlsf/tlsf.h

@@ -1,0 +1,37 @@
+vm86call.o: vm86call.c ../include/sys/types.h include/stdio.h \
+ ../include/stdarg.h include/syscall.h ../include/inttypes.h \
+ ../include/stdint.h ../include/time.h ../include/ioctl.h
+graphics.o: graphics.c ../include/stddef.h ../include/sys/types.h \
+ ../include/sys/mman.h include/unistd.h include/syscall.h \
+ ../include/inttypes.h ../include/stdint.h ../include/time.h \
+ ../include/ioctl.h include/stdio.h ../include/stdarg.h \
+ ../include/string.h graphics.h
+main.o: main.c ../include/inttypes.h ../include/stdint.h \
+ ../include/stddef.h include/math.h include/stdio.h ../include/stdarg.h \
+ ../include/sys/types.h ../include/sys/mman.h include/syscall.h \
+ ../include/time.h ../include/ioctl.h include/netinet/in.h \
+ include/stdlib.h graphics.h
+sysconf.o: lib/sysconf.c include/unistd.h
+math.o: lib/math.c ../include/stdint.h include/math.h
+stdio.o: lib/stdio.c include/syscall.h ../include/sys/types.h \
+ ../include/inttypes.h ../include/stdint.h ../include/time.h \
+ ../include/ioctl.h include/stdio.h ../include/stdarg.h \
+ ../include/limits.h
+stdlib.o: lib/stdlib.c ../include/stdint.h include/stdlib.h \
+ ../include/sys/types.h ../include/limits.h ../include/string.h \
+ ../include/stddef.h include/syscall.h ../include/inttypes.h \
+ ../include/time.h ../include/ioctl.h
+qsort.o: lib/qsort.c ../include/sys/types.h
+softfloat.o: ../lib/softfloat.c ../include/inttypes.h ../include/stdint.h \
+ ../include/stddef.h
+string.o: ../lib/string.c ../include/string.h ../include/stddef.h \
+ ../include/sys/types.h ../include/ctype.h
+memcpy.o: ../lib/memcpy.c ../include/stddef.h ../include/sys/types.h
+memset.o: ../lib/memset.c ../include/sys/types.h ../include/stdint.h \
+ ../include/limits.h ../include/string.h ../include/stddef.h
+snprintf.o: ../lib/snprintf.c ../include/sys/types.h ../include/ctype.h \
+ ../include/string.h ../include/stddef.h ../include/stdarg.h
+malloc.o: lib/malloc.c ../include/string.h ../include/stddef.h \
+ ../include/sys/types.h ../include/../lib/tlsf/tlsf.h
+tlsf.o: ../lib/tlsf/tlsf.c ../include/limits.h ../include/stddef.h \
+ ../include/string.h ../include/sys/types.h ../lib/tlsf/tlsf.h

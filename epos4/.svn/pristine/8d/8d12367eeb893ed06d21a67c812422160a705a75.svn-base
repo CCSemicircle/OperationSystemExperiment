@@ -1,0 +1,58 @@
+/**
+ * vim: filetype=c:fenc=utf-8:ts=2:et:sw=2:sts=2
+ *
+ * Copyright (C) 2005, 2008, 2013 Hong MingJian<hongmingjian@gmail.com>
+ * All rights reserved.
+ *
+ * This file is part of the EPOS.
+ *
+ * Redistribution and use in source and binary forms are freely
+ * permitted provided that the above copyright notice and this
+ * paragraph and the following disclaimer are duplicated in all
+ * such forms.
+ *
+ * This software is provided "AS IS" and without any express or
+ * implied warranties, including, without limitation, the implied
+ * warranties of merchantability and fitness for a particular
+ * purpose.
+ *
+ */
+#define LOADADDR 0x100000
+#define KERNBASE 0xC0000000
+
+#if defined(__WIN32__) || defined(__CYGWIN__)
+OUTPUT_FORMAT("pei-i386")
+#elif defined __ELF__
+OUTPUT_FORMAT("elf32-i386")
+#else
+#error Unsupported compiler!
+#endif
+ENTRY(_entry)
+SECTIONS {
+  . = KERNBASE+LOADADDR;
+  .text : {
+    *(.text)
+  }
+
+  . = ALIGN(4);
+  .rodata : {
+    *(.rodata)
+  }
+  .rdata : {
+    *(.rdata)
+  }
+  .data : {
+    *(.data)
+  }
+  . = ALIGN(4);
+  _edata = .;
+
+  .bss : {
+    *(.bss)
+    *(COMMON)
+  }
+
+  . = ALIGN(4);
+  _end = .;
+}
+
