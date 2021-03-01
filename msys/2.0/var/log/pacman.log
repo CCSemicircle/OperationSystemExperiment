@@ -1,0 +1,302 @@
+[2019-05-24 14:56] [PACMAN] Running 'pacman -Syu --root /tmp/newmsys/msys32'
+[2019-05-24 14:56] [PACMAN] synchronizing package lists
+[2019-05-24 14:56] [PACMAN] starting core system upgrade
+[2019-05-24 14:56] [PACMAN] starting full system upgrade
+[2019-05-24 14:56] [PACMAN] Running 'pacman -S --noconfirm --root /tmp/newmsys/msys32 base'
+[2019-05-24 14:57] [ALPM] transaction started
+[2019-05-24 14:57] [ALPM] installed msys2-runtime (3.0.7-2)
+[2019-05-24 14:57] [ALPM] installed bash (4.4.023-1)
+[2019-05-24 14:57] [ALPM] installed bash-completion (2.8-2)
+[2019-05-24 14:57] [ALPM] installed gcc-libs (7.4.0-1)
+[2019-05-24 14:57] [ALPM] installed libbz2 (1.0.6-2)
+[2019-05-24 14:57] [ALPM] installed libiconv (1.15-1)
+[2019-05-24 14:57] [ALPM] installed libexpat (2.2.6-1)
+[2019-05-24 14:57] [ALPM] installed libintl (0.19.8.1-1)
+[2019-05-24 14:57] [ALPM] installed libgettextpo (0.19.8.1-1)
+[2019-05-24 14:57] [ALPM] installed libasprintf (0.19.8.1-1)
+[2019-05-24 14:57] [ALPM] installed gettext (0.19.8.1-1)
+[2019-05-24 14:57] [ALPM] installed liblzma (5.2.4-1)
+[2019-05-24 14:57] [ALPM] installed liblz4 (1.9.1-1)
+[2019-05-24 14:57] [ALPM] installed liblzo2 (2.10-2)
+[2019-05-24 14:57] [ALPM] installed gmp (6.1.2-1)
+[2019-05-24 14:57] [ALPM] installed libhogweed (3.4.1-1)
+[2019-05-24 14:57] [ALPM] installed libnettle (3.4.1-1)
+[2019-05-24 14:57] [ALPM] installed coreutils (8.31-1)
+[2019-05-24 14:57] [ALPM] installed icu (64.2-1)
+[2019-05-24 14:57] [ALPM] installed ncurses (6.1.20180908-1)
+[2019-05-24 14:57] [ALPM] installed libreadline (8.0.000-1)
+[2019-05-24 14:57] [ALPM] installed zlib (1.2.11-1)
+[2019-05-24 14:57] [ALPM] installed libxml2 (2.9.9-4)
+[2019-05-24 14:57] [ALPM] installed bsdcpio (3.3.3-3)
+[2019-05-24 14:57] [ALPM] installed bsdtar (3.3.3-3)
+[2019-05-24 14:57] [ALPM] installed bzip2 (1.0.6-2)
+[2019-05-24 14:57] [ALPM] installed libopenssl (1.1.1.b-1)
+[2019-05-24 14:58] [ALPM] installed openssl (1.1.1.b-1)
+[2019-05-24 14:58] [ALPM] installed findutils (4.6.0-1)
+[2019-05-24 14:58] [ALPM] installed sed (4.7-1)
+[2019-05-24 14:58] [ALPM] installed libffi (3.2.1-3)
+[2019-05-24 14:58] [ALPM] installed libpcre (8.43-2)
+[2019-05-24 14:58] [ALPM] installed less (530-1)
+[2019-05-24 14:58] [ALPM] installed gzip (1.10-1)
+[2019-05-24 14:58] [ALPM] installed libcrypt (2.1-2)
+[2019-05-24 14:58] [ALPM] installed info (6.6-1)
+[2019-05-24 14:58] [ALPM] installed libtasn1 (4.13-1)
+[2019-05-24 14:58] [ALPM] installed libgpg-error (1.36-1)
+[2019-05-24 14:58] [ALPM] installed libgcrypt (1.8.4-1)
+[2019-05-24 14:58] [ALPM] installed libxslt (1.1.33-2)
+[2019-05-24 14:58] [ALPM] installed glib2 (2.54.3-1)
+[2019-05-24 14:58] [ALPM] installed libp11-kit (0.23.15-1)
+[2019-05-24 14:58] [ALPM] installed p11-kit (0.23.15-1)
+[2019-05-24 14:58] [ALPM] installed ca-certificates (20180409-1)
+[2019-05-24 14:58] [ALPM] installed brotli (1.0.7-1)
+[2019-05-24 14:58] [ALPM] installed libdb (5.3.28-2)
+[2019-05-24 14:58] [ALPM] installed libedit (3.1-20170329)
+[2019-05-24 14:58] [ALPM] installed libsqlite (3.28.0-1)
+[2019-05-24 14:58] [ALPM] installed heimdal-libs (7.5.0-3)
+[2019-05-24 14:58] [ALPM] installed libunistring (0.9.10-1)
+[2019-05-24 14:58] [ALPM] installed libidn2 (2.1.1a-1)
+[2019-05-24 14:58] [ALPM] installed libmetalink (0.1.3-2)
+[2019-05-24 14:58] [ALPM] installed libnghttp2 (1.36.0-1)
+[2019-05-24 14:58] [ALPM] installed libpsl (0.20.2-3)
+[2019-05-24 14:58] [ALPM] installed libssh2 (1.8.2-1)
+[2019-05-24 14:58] [ALPM] installed libcurl (7.65.0-1)
+[2019-05-24 14:58] [ALPM] installed curl (7.65.0-1)
+[2019-05-24 14:58] [ALPM] installed filesystem (2018.12-1)
+[2019-05-24 14:58] [ALPM] installed grep (3.0-2)
+[2019-05-24 14:58] [ALPM] installed dash (0.5.10.2-1)
+[2019-05-24 14:58] [ALPM] installed dtc (1.5.0-1)
+[2019-05-24 14:58] [ALPM] installed file (5.37-1)
+[2019-05-24 14:58] [ALPM] installed m4 (1.4.18-2)
+[2019-05-24 14:58] [ALPM] installed flex (2.6.4-1)
+[2019-05-24 14:58] [ALPM] installed mpfr (4.0.2-1)
+[2019-05-24 14:58] [ALPM] installed gawk (5.0.0-1)
+[2019-05-24 14:58] [ALPM] installed libargp (20110921-2)
+[2019-05-24 14:58] [ALPM] installed getent (2.18.90-2)
+[2019-05-24 14:58] [ALPM] installed tftp-hpa (5.2-3)
+[2019-05-24 14:58] [ALPM] installed inetutils (1.9.4-2)
+[2019-05-24 14:58] [ALPM] installed lndir (1.0.3-1)
+[2019-05-24 14:58] [ALPM] installed mintty (1~3.0.0-1)
+[2019-05-24 14:58] [ALPM] installed msys2-keyring (r9.397a52e-1)
+[2019-05-24 14:58] [ALPM] installed msys2-launcher-git (0.3.32.56c2ba7-2)
+[2019-05-24 14:58] [ALPM] installed libassuan (2.5.3-1)
+[2019-05-24 14:58] [ALPM] installed libgnutls (3.6.7.1-1)
+[2019-05-24 14:58] [ALPM] installed libksba (1.3.5-1)
+[2019-05-24 14:58] [ALPM] installed libnpth (1.6-1)
+[2019-05-24 14:58] [ALPM] installed nettle (3.4.1-1)
+[2019-05-24 14:58] [ALPM] installed pinentry (1.1.0-2)
+[2019-05-24 14:58] [ALPM] installed gnupg (2.2.15-2)
+[2019-05-24 14:58] [ALPM] installed pacman-mirrors (20180604-2)
+[2019-05-24 14:58] [ALPM] installed which (2.21-2)
+[2019-05-24 14:58] [ALPM] installed xz (5.2.4-1)
+[2019-05-24 14:58] [ALPM] installed pacman (5.1.3-1)
+[2019-05-24 14:58] [ALPM] installed libarchive (3.3.3-3)
+[2019-05-24 14:58] [ALPM] installed libpcre16 (8.43-2)
+[2019-05-24 14:58] [ALPM] installed libpcre32 (8.43-2)
+[2019-05-24 14:58] [ALPM] installed libpcrecpp (8.43-2)
+[2019-05-24 14:58] [ALPM] installed libpcreposix (8.43-2)
+[2019-05-24 14:58] [ALPM] installed pcre (8.43-2)
+[2019-05-24 14:58] [ALPM] installed pkgfile (19-1)
+[2019-05-24 14:58] [ALPM-SCRIPTLET] ==> Run 'pkgfile --update' to initialize the database
+[2019-05-24 14:58] [ALPM] installed libgpgme (1.13.0-1)
+[2019-05-24 14:58] [ALPM] installed libpcre2_8 (10.33-2)
+[2019-05-24 14:58] [ALPM] installed libutil-linux (2.33.1-1)
+[2019-05-24 14:58] [ALPM] installed wget (1.20.3-1)
+[2019-05-24 14:58] [ALPM] installed pactoys-git (r2.07ca37f-1)
+[2019-05-24 14:58] [ALPM] installed pax-git (20161104.2-1)
+[2019-05-24 14:58] [ALPM] installed rebase (4.4.4-1)
+[2019-05-24 14:58] [ALPM] installed time (1.9-1)
+[2019-05-24 14:58] [ALPM] installed ttyrec (1.0.8-2)
+[2019-05-24 14:58] [ALPM] installed tzcode (2019.a-1)
+[2019-05-24 14:58] [ALPM] installed util-linux (2.33.1-1)
+[2019-05-24 14:58] [ALPM] transaction completed
+[2020-02-23 22:44] [PACMAN] Running 'pacman -U tar-1.32-1-i686.pkg.tar.xz'
+[2020-02-23 22:44] [PACMAN] Running 'pacman -U gcc-9.1.0-2-i686.pkg.tar.xz'
+[2020-02-23 22:45] [PACMAN] Running 'pacman -U subversion-1.12.2-1-i686.pkg.tar.xz'
+[2020-02-23 22:47] [PACMAN] Running 'pacman -Ud subversion-1.12.2-1-i686.pkg.tar.xz'
+[2020-02-23 22:47] [PACMAN] Running 'pacman -Udd subversion-1.12.2-1-i686.pkg.tar.xz'
+[2020-02-23 22:48] [ALPM] transaction started
+[2020-02-23 22:48] [ALPM] installed subversion (1.12.2-1)
+[2020-02-23 22:48] [ALPM] transaction completed
+[2020-02-23 22:48] [PACMAN] Running 'pacman -Udd apr-1.7.0-1-i686.pkg.tar.xz apr-util-1.6.1-1-i686.pkg.tar.xz libsasl-2.1.27-1-i686.pkg.tar.xz libserf-1.3.9-5-i686.pkg.tar.xz'
+[2020-02-23 22:48] [ALPM] transaction started
+[2020-02-23 22:48] [ALPM] installed apr (1.7.0-1)
+[2020-02-23 22:48] [ALPM] installed apr-util (1.6.1-1)
+[2020-02-23 22:48] [ALPM] installed libsasl (2.1.27-1)
+[2020-02-23 22:48] [ALPM] installed libserf (1.3.9-5)
+[2020-02-23 22:48] [ALPM] transaction completed
+[2020-02-23 22:49] [PACMAN] Running 'pacman -U binutils-2.30-2-i686.pkg.tar.xz'
+[2020-02-23 22:49] [ALPM] transaction started
+[2020-02-23 22:49] [ALPM] installed binutils (2.30-2)
+[2020-02-23 22:49] [ALPM] transaction completed
+[2020-02-23 22:49] [PACMAN] Running 'pacman -Ud gcc-9.1.0-2-i686.pkg.tar.xz'
+[2020-02-23 22:49] [PACMAN] Running 'pacman -Udd gcc-9.1.0-2-i686.pkg.tar.xz'
+[2020-02-23 22:49] [ALPM] transaction started
+[2020-02-23 22:49] [ALPM] installed gcc (9.1.0-2)
+[2020-02-23 22:49] [ALPM] transaction completed
+[2020-02-23 22:50] [PACMAN] Running 'pacman -U gdb-8.2.1-3-i686.pkg.tar.xz'
+[2020-02-23 22:50] [PACMAN] Running 'pacman -Udd gdb-8.2.1-3-i686.pkg.tar.xz'
+[2020-02-23 22:50] [ALPM] transaction started
+[2020-02-23 22:50] [ALPM] installed gdb (8.2.1-3)
+[2020-02-23 22:50] [ALPM] transaction completed
+[2020-02-23 22:51] [PACMAN] Running 'pacman -Udd make-4.3-1-i686.pkg.tar.xz'
+[2020-02-23 22:51] [ALPM] transaction started
+[2020-02-23 22:51] [ALPM] installed make (4.3-1)
+[2020-02-23 22:51] [ALPM] transaction completed
+[2020-02-23 22:51] [PACMAN] Running 'pacman -Udd python-3.7.4-1-i686.pkg.tar.xz'
+[2020-02-23 22:51] [ALPM] transaction started
+[2020-02-23 22:51] [ALPM] installed python (3.7.4-1)
+[2020-02-23 22:51] [ALPM] transaction completed
+[2020-02-23 22:52] [PACMAN] Running 'pacman -Udd tar-1.32-1-i686.pkg.tar.xz'
+[2020-02-23 22:52] [ALPM] transaction started
+[2020-02-23 22:52] [ALPM] installed tar (1.32-1)
+[2020-02-23 22:52] [ALPM] transaction completed
+[2020-02-23 22:52] [PACMAN] Running 'pacman -Udd mpc-1.1.0-1-i686.pkg.tar.xz'
+[2020-02-23 22:52] [ALPM] transaction started
+[2020-02-23 22:52] [ALPM] installed mpc (1.1.0-1)
+[2020-02-23 22:52] [ALPM] transaction completed
+[2020-02-23 22:53] [PACMAN] Running 'pacman -Udd isl-0.21-1-i686.pkg.tar.xz'
+[2020-02-23 22:53] [ALPM] transaction started
+[2020-02-23 22:53] [ALPM] installed isl (0.21-1)
+[2020-02-23 22:53] [ALPM] transaction completed
+[2020-02-23 22:56] [PACMAN] Running 'pacman -Sc'
+[2020-02-23 23:36] [PACMAN] Running 'pacman -R xz'
+[2020-02-23 23:37] [PACMAN] Running 'pacman -R pax-git'
+[2020-02-23 23:37] [PACMAN] Running 'pacman -Rc pax-git'
+[2020-02-23 23:37] [ALPM] transaction started
+[2020-02-23 23:37] [ALPM] removed pax-git (20161104.2-1)
+[2020-02-23 23:37] [ALPM] transaction completed
+[2020-02-23 23:38] [PACMAN] Running 'pacman -Rc tftp-hpa'
+[2020-02-23 23:38] [ALPM] transaction started
+[2020-02-23 23:38] [ALPM] removed inetutils (1.9.4-2)
+[2020-02-23 23:38] [ALPM] removed tftp-hpa (5.2-3)
+[2020-02-23 23:38] [ALPM] transaction completed
+[2020-02-23 23:38] [PACMAN] Running 'pacman -Rc tzcode'
+[2020-02-23 23:38] [ALPM] transaction started
+[2020-02-23 23:38] [ALPM] removed tzcode (2019.a-1)
+[2020-02-23 23:38] [ALPM] transaction completed
+[2020-02-23 23:38] [PACMAN] Running 'pacman -Rc info'
+[2020-02-23 23:39] [PACMAN] Running 'pacman -Rc ncurses'
+[2020-02-23 23:40] [PACMAN] Running 'pacman -Rc ttyrec'
+[2020-02-23 23:40] [ALPM] transaction started
+[2020-02-23 23:40] [ALPM] removed ttyrec (1.0.8-2)
+[2020-02-23 23:40] [ALPM] transaction completed
+[2020-02-23 23:40] [PACMAN] Running 'pacman -Rc nettle'
+[2020-02-23 23:43] [PACMAN] Running 'pacman -Rc pinentry'
+[2020-02-23 23:43] [PACMAN] Running 'pacman -Rc which'
+[2020-02-23 23:43] [PACMAN] Running 'pacman -Rc time'
+[2020-02-23 23:43] [ALPM] transaction started
+[2020-02-23 23:43] [ALPM] removed time (1.9-1)
+[2020-02-23 23:43] [ALPM] transaction completed
+[2020-02-23 23:43] [PACMAN] Running 'pacman -Rc pcre'
+[2020-02-23 23:44] [ALPM] transaction started
+[2020-02-23 23:44] [ALPM] removed pactoys-git (r2.07ca37f-1)
+[2020-02-23 23:44] [ALPM] removed pkgfile (19-1)
+[2020-02-23 23:44] [ALPM] removed pcre (8.43-2)
+[2020-02-23 23:44] [ALPM] transaction completed
+[2020-02-23 23:45] [PACMAN] Running 'pacman -Rs libarchive libpcre16 libpcre32 libpcrecpp libpcreposix wget'
+[2020-02-23 23:45] [ALPM] transaction started
+[2020-02-23 23:45] [ALPM] removed wget (1.20.3-1)
+[2020-02-23 23:45] [ALPM] removed libpcre2_8 (10.33-2)
+[2020-02-23 23:45] [ALPM] removed libgpgme (1.13.0-1)
+[2020-02-23 23:45] [ALPM] removed libpcreposix (8.43-2)
+[2020-02-23 23:45] [ALPM] removed libpcrecpp (8.43-2)
+[2020-02-23 23:45] [ALPM] removed libpcre32 (8.43-2)
+[2020-02-23 23:45] [ALPM] removed libpcre16 (8.43-2)
+[2020-02-23 23:45] [ALPM] removed libarchive (3.3.3-3)
+[2020-02-23 23:45] [ALPM] transaction completed
+[2020-02-23 23:46] [PACMAN] Running 'pacman -Rc lndir'
+[2020-02-23 23:46] [ALPM] transaction started
+[2020-02-23 23:46] [ALPM] removed lndir (1.0.3-1)
+[2020-02-23 23:46] [ALPM] transaction completed
+[2020-02-23 23:46] [PACMAN] Running 'pacman -Rc mintty'
+[2020-02-23 23:46] [ALPM] transaction started
+[2020-02-23 23:46] [ALPM] removed msys2-launcher-git (0.3.32.56c2ba7-2)
+[2020-02-23 23:46] [ALPM] removed mintty (1~3.0.0-1)
+[2020-02-23 23:46] [ALPM] transaction completed
+[2020-02-23 23:46] [PACMAN] Running 'pacman -Rc pacman-mirrors'
+[2020-02-23 23:47] [PACMAN] Running 'pacman -Rc icu'
+[2020-02-23 23:47] [PACMAN] Running 'pacman -Rc bsdtar'
+[2020-02-23 23:47] [ALPM] transaction started
+[2020-02-23 23:47] [ALPM] removed bsdtar (3.3.3-3)
+[2020-02-23 23:47] [ALPM] transaction completed
+[2020-02-23 23:47] [PACMAN] Running 'pacman -Rc bsdcpio'
+[2020-02-23 23:47] [ALPM] transaction started
+[2020-02-23 23:47] [ALPM] removed bsdcpio (3.3.3-3)
+[2020-02-23 23:47] [ALPM] transaction completed
+[2020-02-23 23:47] [PACMAN] Running 'pacman -Rc brotli'
+[2020-02-23 23:47] [PACMAN] Running 'pacman -Rc dtc'
+[2020-02-23 23:47] [ALPM] transaction started
+[2020-02-23 23:47] [ALPM] removed dtc (1.5.0-1)
+[2020-02-23 23:47] [ALPM] transaction completed
+[2020-02-23 23:47] [PACMAN] Running 'pacman -Rc file'
+[2020-02-23 23:48] [PACMAN] Running 'pacman -Rc liblzo2'
+[2020-02-23 23:48] [ALPM] transaction started
+[2020-02-23 23:48] [ALPM] removed liblzo2 (2.10-2)
+[2020-02-23 23:48] [ALPM] transaction completed
+[2020-02-23 23:49] [PACMAN] Running 'pacman -Rc libsqlite'
+[2020-02-23 23:49] [PACMAN] Running 'pacman -Rc libunistring'
+[2020-02-23 23:49] [PACMAN] Running 'pacman -Rc nettle]'
+[2020-02-23 23:49] [PACMAN] Running 'pacman -Rc nettle'
+[2020-02-23 23:49] [PACMAN] Running 'pacman -Rc gnupg'
+[2020-02-23 23:51] [PACMAN] Running 'pacman -Rc p11-kit'
+[2020-02-23 23:51] [PACMAN] Running 'pacman -Sy bison'
+[2020-02-23 23:51] [PACMAN] synchronizing package lists
+[2020-02-23 23:53] [PACMAN] Running 'pacman -Sy bison'
+[2020-02-23 23:53] [PACMAN] synchronizing package lists
+[2020-02-23 23:53] [ALPM] transaction started
+[2020-02-23 23:53] [ALPM] installed bison (3.5.2-1)
+[2020-02-23 23:53] [ALPM] transaction completed
+[2020-02-24 00:22] [PACMAN] Running 'pacman -Rc icu'
+[2020-02-24 08:21] [PACMAN] Running 'pacman -Rc bison'
+[2020-02-24 08:21] [ALPM] transaction started
+[2020-02-24 08:21] [ALPM] removed bison (3.5.2-1)
+[2020-02-24 08:21] [ALPM] transaction completed
+[2020-02-24 08:21] [PACMAN] Running 'pacman -Rc flex'
+[2020-02-24 08:21] [ALPM] transaction started
+[2020-02-24 08:21] [ALPM] removed flex (2.6.4-1)
+[2020-02-24 08:21] [ALPM] transaction completed
+[2020-02-24 08:21] [PACMAN] Running 'pacman -Rc file'
+[2020-02-24 08:21] [ALPM] transaction started
+[2020-02-24 08:21] [ALPM] removed subversion (1.12.2-1)
+[2020-02-24 08:21] [ALPM] removed file (5.37-1)
+[2020-02-24 08:21] [ALPM] transaction completed
+[2020-02-24 08:22] [PACMAN] Running 'pacman -Sy subversion'
+[2020-02-24 08:22] [PACMAN] synchronizing package lists
+[2020-02-24 08:24] [PACMAN] Running 'pacman -Sy subversion'
+[2020-02-24 08:24] [PACMAN] synchronizing package lists
+[2020-02-24 08:25] [PACMAN] Running 'pacman -Sy subversion'
+[2020-02-24 08:25] [PACMAN] synchronizing package lists
+[2020-02-24 08:28] [PACMAN] Running 'pacman -U /subversion-1.12.2-1-i686.pkg.tar.xz'
+[2020-02-24 08:28] [ALPM] transaction started
+[2020-02-24 08:28] [ALPM] installed file (5.38-1)
+[2020-02-24 08:28] [ALPM] installed subversion (1.12.2-1)
+[2020-02-24 08:28] [ALPM] transaction completed
+[2020-02-24 08:30] [PACMAN] Running 'pacman -R'
+[2020-02-24 08:31] [PACMAN] Running 'pacman -Rdd python'
+[2020-02-24 08:31] [ALPM] transaction started
+[2020-02-24 08:31] [ALPM] removed python (3.7.4-1)
+[2020-02-24 08:31] [ALPM] transaction completed
+[2020-02-24 08:32] [PACMAN] Running 'pacman -U /python-3.7.4-1-i686.pkg.tar.xz'
+[2020-02-24 08:32] [ALPM] transaction started
+[2020-02-24 08:32] [ALPM] installed mpdecimal (2.4.2-2)
+[2020-02-24 08:33] [ALPM] installed python (3.7.4-1)
+[2020-02-24 08:33] [ALPM] transaction completed
+[2020-02-24 08:34] [PACMAN] Running 'pacman -Rdd python'
+[2020-02-24 08:34] [ALPM] transaction started
+[2020-02-24 08:34] [ALPM] removed python (3.7.4-1)
+[2020-02-24 08:34] [ALPM] transaction completed
+[2020-02-24 08:36] [PACMAN] Running 'pacman -U /python-3.7.4-1-i686.pkg.tar.xz'
+[2020-02-24 08:36] [ALPM] transaction started
+[2020-02-24 08:37] [ALPM] installed python (3.7.4-1)
+[2020-02-24 08:37] [ALPM] transaction completed
+[2020-02-25 12:09] [PACMAN] Running 'pacman -Sy gcc-libs'
+[2020-02-25 12:09] [PACMAN] synchronizing package lists
+[2020-02-25 12:10] [ALPM] transaction started
+[2020-02-25 12:11] [ALPM] upgraded gcc-libs (7.4.0-1 -> 9.1.0-2)
+[2020-02-25 12:11] [ALPM] transaction completed
+[2020-02-25 12:11] [PACMAN] Running 'pacman -Sy expat'
+[2020-02-25 12:11] [PACMAN] synchronizing package lists
+[2020-02-25 12:11] [ALPM] transaction started
+[2020-02-25 12:11] [ALPM] installed expat (2.2.9-1)
+[2020-02-25 12:11] [ALPM] transaction completed
+[2020-02-25 12:13] [PACMAN] Running 'pacman -Scc'

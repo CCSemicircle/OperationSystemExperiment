@@ -1,0 +1,6 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=00000000
+eax=80090858 ebx=80092AC0 ecx=0065C3FC edx=00000000 esi=80083820 edi=8008A840
+ebp=00000011 esp=0065C3AC program=D:\expenv2\expenv2\msys\2.0\usr\bin\svn.exe, pid 1781, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
